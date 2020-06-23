@@ -29,14 +29,10 @@ Running the App from the terminal:
 # About the App
 Once the app is running...
 1. Navigate to https://localhost:8000/oauth in your browser.
-2. Sign into your integration.
-
-   a. You will be redirected back to your local app server.
-   
-3. Wait.  Your app will check for old tokens every ``EVENT_LOOP_SLEEP_SECONDS`` (default 3600 seconds, or 1 hour).
-
-   a. If the user's token is older than ``EVENT_LOOP_DAYS`` (default 1 day), app will attempt to refresh it.
-   
+2. Sign into your integration.<br>
+   a. You will be redirected back to your local app server.<br>
+3. Wait.  Your app will check for old tokens every ``EVENT_LOOP_SLEEP_SECONDS`` (default 3600 seconds, or 1 hour).<br>
+   a. If the user's token is older than ``EVENT_LOOP_DAYS`` (default 1 day), app will attempt to refresh it.<br>
    b. You can increase the frequency for testing purposes, but please note:<br>
       Tokens refreshed more than once every 24 hours will often leave the value, including the expire time, unchanged.<br>
       This essentially means that a token can only be truly refreshed at most once daily.<br>
