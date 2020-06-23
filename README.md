@@ -37,6 +37,6 @@ Once the app is running...
 
    a. If the user's token is older than ``EVENT_LOOP_DAYS`` (default 1 day), app will attempt to refresh it.
    
-   b. You can increase the frequency for testing purposes, but please note:  \n
-      Tokens refreshed more than once every 24 hours will often leave the value, including the expire time, unchanged.  \n
-      This essentially means that a token can only be truly refreshed at most once daily.
+   b. You can increase the frequency for testing purposes, but please note:<br>
+      Tokens refreshed more than once every 24 hours will often leave the value, including the expire time, unchanged.<br>
+      This essentially means that a token can only be truly refreshed at most once daily.<br>
