@@ -19,10 +19,10 @@ Requirements:
 2. pip install tornado==4.5.2
 
 Environment Variables:
-Please review the ``sample_environ_vars.sh`` file and edit the values to include the integration client_id and secret from the getting started step.  If you used a different redirect_uri or scopes from the Getting Started step, then you'll need to edit those values here as well, or set them as environment variables via your preferred method.  For example, you can run the following in a unix terminal to set the environment variables in that local terminal window:
+Please review the ``sample_environ_vars.sh`` file and edit the values to include the integration client_id and secret from the getting started step.  If you used a different redirect_uri or scopes from the Getting Started step, then you'll need to edit those values here as well, or set them as environment variables via your preferred method.  For example, you can run the following in a unix terminal to set the environment variables in that local terminal window:<br>
  ``>>>username$ source sample_environ_vars.sh``
  
-Running the App from the terminal:
+Running the App from the terminal:<br>
 ``>>>username$ python app.py --debug``
 
 
